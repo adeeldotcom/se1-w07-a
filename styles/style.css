@@ -1,0 +1,64 @@
+:root {
+--primary: #2c3e50;
+--accent: #3498db;
+--white: #ffffff;
+--bg: #f4f6f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background: var(--bg);
+}
+
+/* Header */
+header {
+background: var(--primary);
+color: var(--white);
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav a {
+color: var(--white);
+margin-left: 15px;
+text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+text-align: center;
+padding: 100px 20px;
+}
+
+.hero h2 {
+font-size: 40px;
+color: var(--primary);
+}
+
+.hero button {
+margin-top: 20px;
+padding: 10px 20px;
+background: var(--accent);
+color: white;
+border: none;
+cursor: pointer;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 10px;
+background: var(--primary);
+color: white;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
